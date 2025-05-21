@@ -69,8 +69,8 @@ def main():
         help="List all AWS services that have at least one security check"
     )
     scan_p.add_argument(
-        "--service",
-        help="Only run checks for the specified AWS service"
+        "--services",
+        help="Comma-separated AWS service(s) to run checks for"
     )
 
     # ADVISE command (unchanged)
@@ -108,8 +108,16 @@ def main():
 
         # Build the final list of check IDs to run
         only_ids = all_ids
+        # filter by service(s) if requested
+        if args.services:
+            svc_list = [s.strip() for s in args.services.split(',') if s.strip()]
+            only_ids = [m["id"] for m in all_plugins if m.get("service") in svc_list]
+
+
+        """# Build the final list of check IDs to run
+        only_ids = all_ids
         # filter by service if requested
-        """if args.service:
+        if args.service:
             only_ids = [m["id"] for m in all_plugins if m["service"] == args.service]"""
 
 
@@ -135,8 +143,10 @@ def main():
         plugins = first_runner.plugins    # full list of check metas
         metadata = first_runner.metadata
 
-        if args.service:
-            plugins = [m for m in plugins if m.get("service") == args.service]
+        # also prune the per-region/plugin runner list
+        if args.services:
+            svc_list = [s.strip() for s in args.services.split(',') if s.strip()]
+            plugins = [m for m in plugins if m.get("service") in svc_list]
             metadata = {m["id"]: m for m in plugins}
 
         
