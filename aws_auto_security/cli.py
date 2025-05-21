@@ -58,6 +58,11 @@ def main():
         "-O", "--output-file",
         help="Write output to this file (.log/.txt for text, .json for JSON/ASFF)"
     )
+    scan_p.add_argument(
+        "--no-output",
+        action="store_true",
+        help="Suppress all console output (still writes to files)"
+    )
 
     # ADVISE command (unchanged)
     adv_p = sub.add_parser("advise", help="Generate remediation advice")
@@ -135,19 +140,72 @@ def main():
             elapsed = round(time.time() - start, 2)
             bar.close()
 
-        # Print legend to stderr so it doesn't clash with stdout report
-        legend = "  ".join(
-            f"{color}{symbol}{Style.RESET_ALL} = {sev.title()}"
-            for sev, (symbol, color) in SEVERITY_MAP.items()
-        )
-        print(legend, file=sys.stderr)
-        print("", file=sys.stderr)
+        if not args.no_output:
 
-        # Output grouped text report
-        report_grouped(all_findings, metadata)
+            # Print legend to stderr so it doesn't clash with stdout report
+            legend = "  ".join(
+                f"{color}{symbol}{Style.RESET_ALL} = {sev.title()}"
+                for sev, (symbol, color) in SEVERITY_MAP.items()
+            )
+            print(legend, file=sys.stderr)
+            print("", file=sys.stderr)
+
+            # 1) define weights
+            WEIGHTS = {
+                'CRITICAL': 5,
+                'HIGH':     3,
+                'MEDIUM':   2,
+                'LOW':      1,
+            }
+
+            # 2) tally severities
+            counts = {sev: 0 for sev in WEIGHTS}
+            for check_id, resource, desc in all_findings:
+                sev = metadata[check_id].get('severity', 'LOW').upper()
+                if sev in counts:
+                    counts[sev] += 1
+
+            # 3) weighted sum of findings
+            weighted_sum = sum(counts[sev] * WEIGHTS[sev] for sev in counts)
+
+            # 4) max possible weight if *every* check was critical
+            total_checks = len(metadata)
+            max_weight = total_checks * WEIGHTS['CRITICAL']
+
+            # 5) compute risk score (inverted: more weight → lower score)
+            raw = 100 - int((weighted_sum / max_weight) * 100)
+            score = max(0, min(raw, 100))
+
+            # 6) map to letter grade
+            if score >= 90:
+                grade = 'A'
+            elif score >= 80:
+                grade = 'B'
+            elif score >= 70:
+                grade = 'C'
+            elif score >= 60:
+                grade = 'D'
+            else:
+                grade = 'F'
+
+            # Output grouped text report
+            report_grouped(all_findings, metadata)
+
+            # 7) print it
+            print(
+                Fore.MAGENTA +
+                f"\nAWS Security Score: {score}/100  (Grade: {grade})\n" +
+                Style.RESET_ALL,
+                file=sys.stderr
+            )
 
         # Determine base filename
         base = args.output_file or f"cloudwaller-{','.join(profiles)}-{int(start)}"
+
+        legend = "  ".join(
+                f"{color}{symbol}{Style.RESET_ALL} = {sev.title()}"
+                for sev, (symbol, color) in SEVERITY_MAP.items()
+            )
 
         # Handle JSON export
         if args.output_format == "json" and all_findings:

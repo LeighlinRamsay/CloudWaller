@@ -10,7 +10,7 @@ _colorama_init(autoreset=True)
 
 # severity → (symbol, color)
 SEVERITY_MAP = {
-    'CRITICAL': ('✗', Fore.RED),
+    'CRITICAL': ('❗', Fore.RED),
     'HIGH':     ('✗', Fore.RED),
     'MEDIUM':   ('⚠', Fore.YELLOW),
     'LOW':      ('✓', Fore.GREEN),

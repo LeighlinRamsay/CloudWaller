@@ -147,7 +147,7 @@ class Runner:
         except Exception as e:
             raise RuntimeError(f"init failed: {e}")
 
-        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as ex:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as ex:
             fut = ex.submit(plugin.run)
             try:
                 results = fut.result(timeout=self.PLUGIN_TIMEOUT)
