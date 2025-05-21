@@ -1,0 +1,8 @@
+{
+  "id": "glue_s3_public",
+  "name": "Glue-Owned S3 Buckets Publicly Readable",
+  "category": "ETL",
+  "advice": "Lock down bucket ACLs/policies for Glue script artifact buckets.",
+  "color": "RED",
+  "severity": "HIGH"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "rds_public_access",
+  "name": "RDS Instances Publicly Accessible",
+  "category": "Database",
+  "advice": "Set PubliclyAccessible=False and restrict access via security groups and private subnets.",
+  "color": "RED",
+  "severity": "CRITICAL"
+}

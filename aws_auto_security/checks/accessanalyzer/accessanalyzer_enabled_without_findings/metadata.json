@@ -1,0 +1,8 @@
+{
+  "id": "accessanalyzer_enabled_without_findings",
+  "name": "Check if IAM Access Analyzer is enabled without findings",
+  "category": "accessanalyzer",
+  "advice": "Review or archive analyzers that never generate any findings.",
+  "color": "LOW",
+  "severity": "LOW"
+}

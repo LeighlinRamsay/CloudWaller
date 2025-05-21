@@ -1,0 +1,8 @@
+{
+  "id": "associate_profile_passrole",
+  "name": "Associate Profile & PassRole",
+  "category": "IAM",
+  "advice": "Do not combine ec2:AssociateIamInstanceProfile and iam:PassRole broadly.",
+  "color": "YELLOW",
+  "severity": "LOW"
+}

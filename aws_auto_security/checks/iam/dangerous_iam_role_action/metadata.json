@@ -1,0 +1,8 @@
+{
+  "id": "dangerous_iam_role_action",
+  "name": "IAM Roles with Wildcard Actions",
+  "category": "IAM",
+  "advice": "Audit IAM role policies: remove wildcard permissions on actions.",
+  "color": "YELLOW",
+  "severity": "HIGH"
+}

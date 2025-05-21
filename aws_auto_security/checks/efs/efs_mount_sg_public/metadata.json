@@ -1,0 +1,8 @@
+{
+  "id": "efs_mount_sg_public",
+  "name": "EFS Mount Target Public SGs",
+  "category": "Networking",
+  "advice": "Restrict EFS mount-target security groups to private access, remove 0.0.0.0/0 ingress rules.",
+  "color": "RED",
+  "severity": "HIGH"
+}

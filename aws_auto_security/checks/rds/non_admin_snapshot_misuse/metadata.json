@@ -1,0 +1,8 @@
+{
+  "id": "rds_non_admin_snapshot_misuse",
+  "name": "Non-DB-Admin Snapshot Misuse",
+  "category": "Database",
+  "advice": "Restrict CreateDBSnapshot/RestoreDBInstanceFromDBSnapshot to DBAdmins group only.",
+  "color": "RED",
+  "severity": "HIGH"
+}

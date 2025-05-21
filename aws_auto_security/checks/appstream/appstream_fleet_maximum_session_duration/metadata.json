@@ -1,0 +1,8 @@
+{
+  "id": "appstream_fleet_maximum_session_duration",
+  "name": "Ensure AppStream fleet session duration ≤ 10 hours",
+  "category": "appstream",
+  "advice": "Set MaxUserDurationInSeconds ≤ 36000 on fleets to limit session length.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

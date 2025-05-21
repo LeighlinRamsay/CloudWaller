@@ -1,0 +1,8 @@
+{
+  "id": "dangerous_iam_role_resource",
+  "name": "IAM Roles with Wildcard Resources",
+  "category": "IAM",
+  "advice": "Restrict resource wildcards; specify explicit ARNs or paths.",
+  "color": "YELLOW",
+  "severity": "HIGH"
+}

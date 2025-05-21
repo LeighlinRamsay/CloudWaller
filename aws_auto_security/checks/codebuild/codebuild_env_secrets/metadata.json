@@ -1,0 +1,8 @@
+{
+  "id": "codebuild_env_secrets",
+  "name": "CodeBuild Plaintext AWS_* Variables",
+  "category": "CI/CD",
+  "advice": "Use Secrets Manager or encrypted SSM parameters for secrets, not plaintext vars.",
+  "color": "RED",
+  "severity": "CRITICAL"
+}

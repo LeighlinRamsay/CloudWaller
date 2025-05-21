@@ -1,0 +1,8 @@
+{
+  "id": "ebs_unencrypted",
+  "name": "EBS Unencrypted Volumes",
+  "category": "EBS",
+  "advice": "Enable encryption on this EBS volume using a customer-managed KMS CMK.",
+  "color": "MAGENTA",
+  "severity": "MEDIUM"
+}

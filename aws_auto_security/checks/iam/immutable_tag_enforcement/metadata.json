@@ -1,0 +1,8 @@
+{
+  "id": "immutable_tag_enforcement",
+  "name": "Immutable Tag Enforcement Missing",
+  "category": "IAM",
+  "advice": "Add IAM conditions on ec2:DeleteTags to prevent removal of critical tags.",
+  "color": "YELLOW",
+  "severity": "LOW"
+}

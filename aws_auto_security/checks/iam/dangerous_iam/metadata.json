@@ -1,0 +1,8 @@
+{
+  "id": "dangerous_iam",
+  "name": "IAM Users with Wildcard Policies",
+  "category": "IAM",
+  "advice": "Audit IAM policies: remove wildcard permissions and enforce least privilege.",
+  "color": "YELLOW",
+  "severity": "HIGH"
+}

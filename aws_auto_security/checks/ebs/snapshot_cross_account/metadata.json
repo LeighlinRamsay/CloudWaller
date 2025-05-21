@@ -1,0 +1,8 @@
+{
+  "id": "snapshot_cross_account",
+  "name": "Cross-Account Snapshot Sharing",
+  "category": "EBS",
+  "advice": "Remove cross-account permissions or ensure only trusted AWS account IDs are permitted.",
+  "color": "MAGENTA",
+  "severity": "HIGH"
+}

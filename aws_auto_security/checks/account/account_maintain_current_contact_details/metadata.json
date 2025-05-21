@@ -1,0 +1,8 @@
+{
+  "id": "account_maintain_current_contact_details",
+  "name": "Maintain current contact details",
+  "category": "account",
+  "advice": "Use the AWS Account API to keep your contact information up to date.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

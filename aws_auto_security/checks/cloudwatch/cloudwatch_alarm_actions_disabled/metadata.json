@@ -1,0 +1,8 @@
+{
+  "id": "cloudwatch_alarm_actions_disabled",
+  "name": "CloudWatch Alarms Actions Disabled",
+  "category": "Monitoring",
+  "advice": "Enable actions on your CloudWatch Alarms to ensure notifications or automated responses fire.",
+  "color": "YELLOW",
+  "severity": "LOW"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "snapshot_age_retention",
+  "name": "Snapshot Age & Retention",
+  "category": "EBS",
+  "advice": "Delete old snapshots or apply a DeleteOn tag to manage retention.",
+  "color": "MAGENTA",
+  "severity": "LOW"
+}

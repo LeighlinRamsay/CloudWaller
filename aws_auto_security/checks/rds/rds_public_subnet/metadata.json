@@ -1,0 +1,8 @@
+{
+  "id": "rds_subnet_group_public",
+  "name": "RDS Subnet Groups Publicly Accessible",
+  "category": "Database",
+  "advice": "Ensure RDS subnet groups only include private subnets.",
+  "color": "RED",
+  "severity": "HIGH"
+}

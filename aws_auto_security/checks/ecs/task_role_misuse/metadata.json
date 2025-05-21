@@ -1,0 +1,8 @@
+{
+  "id": "ecs_task_role_misuse",
+  "name": "ECS Task Role Misuse",
+  "category": "Container",
+  "advice": "Ensure ECS task roles do not allow RunTask/RegisterTaskDefinition/PassRole arbitrarily.",
+  "color": "MAGENTA",
+  "severity": "MEDIUM"
+}

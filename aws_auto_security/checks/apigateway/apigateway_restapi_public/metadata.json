@@ -1,0 +1,8 @@
+{
+  "id": "apigateway_restapi_public",
+  "name": "Check if API Gateway endpoint is public or private",
+  "category": "apigateway",
+  "advice": "Use PRIVATE endpoint type for sensitive APIs or secure PUBLIC endpoints with IAM/authorizers.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

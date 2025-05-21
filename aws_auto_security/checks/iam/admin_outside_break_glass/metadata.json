@@ -1,0 +1,8 @@
+{
+  "id": "admin_outside_break_glass",
+  "name": "Admin Privileges Outside Break-Glass",
+  "category": "IAM",
+  "advice": "Ensure only break-glass accounts have AdministratorAccess; remove admin privileges from others.",
+  "color": "YELLOW",
+  "severity": "HIGH"
+}

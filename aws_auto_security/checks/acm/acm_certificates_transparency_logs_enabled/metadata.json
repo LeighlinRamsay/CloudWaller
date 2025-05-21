@@ -1,0 +1,8 @@
+{
+  "id": "acm_certificates_transparency_logs_enabled",
+  "name": "Check if ACM certificates have Certificate Transparency logging enabled",
+  "category": "acm",
+  "advice": "Enable CT logs for your ACM certificates.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

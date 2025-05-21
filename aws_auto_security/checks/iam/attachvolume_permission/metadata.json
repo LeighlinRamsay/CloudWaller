@@ -1,0 +1,8 @@
+{
+  "id": "attachvolume_permission",
+  "name": "Overly-Permissive Volume Attachment",
+  "category": "IAM",
+  "advice": "Scope ec2:AttachVolume to specific volume ARNs or tagged resources; avoid wildcard \"*\" in Resource.",
+  "color": "YELLOW",
+  "severity": "MEDIUM"
+}

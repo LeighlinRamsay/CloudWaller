@@ -1,0 +1,8 @@
+{
+  "id": "ami_old_images",
+  "name": "AMIs Older Than Two Major OS Versions",
+  "category": "Compute",
+  "advice": "Decommission AMIs older than your supported OS lifecycle.",
+  "color": "YELLOW",
+  "severity": "LOW"
+}

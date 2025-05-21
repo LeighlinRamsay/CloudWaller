@@ -1,0 +1,7 @@
+{
+  "id": "inspector_scan_configured",
+  "name": "Amazon Inspector Scanning Enabled",
+  "category": "Inspector",
+  "severity": "CRITICAL",
+  "advice": "Ensure Amazon Inspector assessments are configured for all EC2 instances by creating assessment targets and templates."
+}

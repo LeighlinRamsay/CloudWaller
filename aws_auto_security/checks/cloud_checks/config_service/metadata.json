@@ -1,0 +1,8 @@
+{
+  "id": "config_service",
+  "name": "AWS Config Service Disabled",
+  "category": "Cloud Audit",
+  "advice": "Enable AWS Config recording for all resource types in all regions.",
+  "color": "RED",
+  "severity": "CRITICAL"
+}

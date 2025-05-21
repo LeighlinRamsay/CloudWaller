@@ -1,0 +1,8 @@
+{
+  "id": "iam_create_access_key_limits",
+  "name": "IAM Create/Roll Keys Without Limits",
+  "category": "IAM",
+  "advice": "Scope iam:CreateAccessKey and iam:RotateAccessKey by resource or add conditions limiting key creation/deletion.",
+  "color": "YELLOW",
+  "severity": "MEDIUM"
+}

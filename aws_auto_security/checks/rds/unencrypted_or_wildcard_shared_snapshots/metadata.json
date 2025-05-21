@@ -1,0 +1,8 @@
+{
+  "id": "rds_unencrypted_or_wildcard_shared_snapshots",
+  "name": "RDS Unencrypted or Wildcard‐Shared Snapshots",
+  "category": "Database",
+  "advice": "Encrypt snapshots with a CMK and remove any wildcard account‐ID share; restrict sharing to specific accounts.",
+  "color": "RED",
+  "severity": "HIGH"
+}

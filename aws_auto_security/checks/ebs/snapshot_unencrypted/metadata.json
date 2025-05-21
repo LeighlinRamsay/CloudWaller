@@ -1,0 +1,8 @@
+{
+  "id": "snapshot_unencrypted",
+  "name": "Unencrypted Snapshots",
+  "category": "EBS",
+  "advice": "Encrypt or delete and re-create the snapshot using encrypted volumes.",
+  "color": "MAGENTA",
+  "severity": "HIGH"
+}

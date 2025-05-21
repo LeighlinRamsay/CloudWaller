@@ -1,0 +1,8 @@
+{
+  "id": "lambda_role_misuse",
+  "name": "Lambda Execution Role Misuse",
+  "category": "Compute",
+  "advice": "Remove iam:PassRole or sts:AssumeRole on roles outside the lambda's trust boundary.",
+  "color": "MAGENTA",
+  "severity": "MEDIUM"
+}

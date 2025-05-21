@@ -1,0 +1,8 @@
+{
+  "id": "wafless_app_ports",
+  "name": "App Ports Without WAF/Throttling",
+  "category": "Networking",
+  "advice": "Deploy WAF or rate-limit in front of app ports exposed to 0.0.0.0/0.",
+  "color": "BLUE",
+  "severity": "LOW"
+}

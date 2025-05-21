@@ -1,0 +1,8 @@
+{
+  "id": "flow_logs",
+  "name": "VPC Flow Logs Disabled",
+  "category": "Networking",
+  "advice": "Enable VPC Flow Logs for the resource to capture network traffic.",
+  "color": "BLUE",
+  "severity": "LOW"
+}

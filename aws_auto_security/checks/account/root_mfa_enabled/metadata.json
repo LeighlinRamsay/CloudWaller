@@ -1,0 +1,7 @@
+{
+  "id": "root_mfa_enabled",
+  "name": "Root Account MFA Enabled",
+  "category": "Account",
+  "severity": "CRITICAL",
+  "advice": "Enable MFA on the AWS root account by following AWS best practices: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable.html"
+}

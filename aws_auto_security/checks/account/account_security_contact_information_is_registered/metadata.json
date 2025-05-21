@@ -1,0 +1,8 @@
+{
+  "id": "account_security_contact_information_is_registered",
+  "name": "Ensure security contact information is registered",
+  "category": "account",
+  "advice": "Register a security contact in your AWS account settings.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "ec2_public_ips",
+  "name": "EC2 Instances with Public IPs",
+  "category": "Networking",
+  "advice": "Remove public IPs or move instances into private subnets where possible.",
+  "color": "BLUE",
+  "severity": "LOW"
+}

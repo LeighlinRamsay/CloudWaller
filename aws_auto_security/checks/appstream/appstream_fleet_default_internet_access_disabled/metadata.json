@@ -1,0 +1,8 @@
+{
+  "id": "appstream_fleet_default_internet_access_disabled",
+  "name": "Ensure default Internet Access from AppStream fleets is disabled",
+  "category": "appstream",
+  "advice": "Disable EnableDefaultInternetAccess on fleets to prevent unrestricted Internet access.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

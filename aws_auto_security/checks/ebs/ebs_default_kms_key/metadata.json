@@ -1,0 +1,8 @@
+{
+  "id": "ebs_default_kms_key",
+  "name": "EBS Default KMS Key",
+  "category": "EBS",
+  "advice": "Re-encrypt the volume with a customer-managed KMS key to enforce key rotation and access control.",
+  "color": "MAGENTA",
+  "severity": "MEDIUM"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "kms_key_rotation_enabled",
+  "name": "KMS Key Automatic Rotation Enabled",
+  "category": "KMS",
+  "severity": "MEDIUM",
+  "advice": "Enable automatic rotation for customer-managed KMS keys using AWS KMS console or AWS CLI (e.g., `aws kms enable-key-rotation`)."
+}

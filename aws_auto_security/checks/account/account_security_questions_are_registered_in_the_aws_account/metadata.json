@@ -1,0 +1,8 @@
+{
+  "id": "account_security_questions_are_registered_in_the_aws_account",
+  "name": "Ensure security questions are registered in the AWS account",
+  "category": "account",
+  "advice": "Complete your AWS root account security questions in the console.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

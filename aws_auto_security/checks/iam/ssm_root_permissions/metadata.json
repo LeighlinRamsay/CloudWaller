@@ -1,0 +1,8 @@
+{
+  "id": "ssm_root_permissions",
+  "name": "SSM GetParameter* on Root Path",
+  "category": "IAM",
+  "advice": "Limit SSM GetParameter permissions to scoped parameter paths, not the root (/).",
+  "color": "RED",
+  "severity": "CRITICAL"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "apigatewayv2_api_access_logging_enabled",
+  "name": "Ensure API Gateway V2 has Access Logging enabled",
+  "category": "apigateway",
+  "advice": "Enable access logging on HTTP/WebSocket API Gateway V2 stages.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

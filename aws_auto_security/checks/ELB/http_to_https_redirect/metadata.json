@@ -1,0 +1,7 @@
+{
+  "id": "alb_http_to_https_redirect",
+  "name": "ALB HTTP to HTTPS Redirect",
+  "category": "Networking",
+  "severity": "LOW",
+  "advice": "Configure an HTTP listener on port 80 to redirect all traffic to HTTPS (port 443) in the Load Balancer settings."
+}

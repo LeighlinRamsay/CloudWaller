@@ -1,0 +1,8 @@
+{
+  "id": "storage_public_assets_restrictions",
+  "name": "Public Assets Without Restrictions",
+  "category": "Storage",
+  "advice": "Add origin or referer restrictions to public-facing buckets or endpoints serving web assets.",
+  "color": "CYAN",
+  "severity": "HIGH"
+}

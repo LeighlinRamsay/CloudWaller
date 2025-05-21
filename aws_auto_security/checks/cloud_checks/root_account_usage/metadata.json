@@ -1,0 +1,8 @@
+{
+  "id": "root_account_usage",
+  "name": "Root Account Usage Detected",
+  "category": "Cloud Audit",
+  "advice": "Avoid using the root account; ensure no recent root activity by enforcing MFA and access controls.",
+  "color": "RED",
+  "severity": "CRITICAL"
+}

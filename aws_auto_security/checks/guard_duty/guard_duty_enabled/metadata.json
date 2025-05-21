@@ -1,0 +1,8 @@
+{
+  "id": "guardduty_enabled",
+  "name": "GuardDuty Enabled & Forwarding",
+  "category": "Threat Detection",
+  "advice": "Enable GuardDuty and configure publishing to CloudWatch Events or SNS.",
+  "color": "BLUE",
+  "severity": "LOW"
+}

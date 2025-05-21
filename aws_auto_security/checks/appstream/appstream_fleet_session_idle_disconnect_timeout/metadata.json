@@ -1,0 +1,8 @@
+{
+  "id": "appstream_fleet_session_idle_disconnect_timeout",
+  "name": "Ensure AppStream fleet idle disconnect timeout ≤ 10 minutes",
+  "category": "appstream",
+  "advice": "Set IdleDisconnectTimeoutInSeconds ≤ 600 to drop idle sessions.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

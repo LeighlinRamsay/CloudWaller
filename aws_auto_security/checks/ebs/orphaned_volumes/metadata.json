@@ -1,0 +1,8 @@
+{
+  "id": "orphaned_volumes",
+  "name": "Orphaned Volumes",
+  "category": "EBS",
+  "advice": "Consider deleting unused volumes or attaching them to instances as needed.",
+  "color": "MAGENTA",
+  "severity": "LOW"
+}

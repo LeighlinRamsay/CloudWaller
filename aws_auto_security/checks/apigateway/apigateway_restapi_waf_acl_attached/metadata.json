@@ -1,0 +1,8 @@
+{
+  "id": "apigateway_restapi_waf_acl_attached",
+  "name": "Check if API Gateway Stage has a WAF ACL attached",
+  "category": "apigateway",
+  "advice": "Associate a WAFv2 Web ACL with each API Gateway stage to protect against threats.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "users_not_in_groups",
+  "name": "IAM Users Not in Groups",
+  "category": "IAM",
+  "advice": "Add IAM users to appropriate groups for centralized permission management.",
+  "color": "YELLOW",
+  "severity": "LOW"
+}

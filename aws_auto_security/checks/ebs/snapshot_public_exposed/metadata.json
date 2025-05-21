@@ -1,0 +1,8 @@
+{
+  "id": "snapshot_public_exposed",
+  "name": "Public Snapshot Exposure",
+  "category": "EBS",
+  "advice": "Remove public permissions from snapshot; restrict CreateVolumePermission to trusted accounts.",
+  "color": "MAGENTA",
+  "severity": "HIGH"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "s3_missing_versioning",
+  "name": "S3 Versioning Missing",
+  "category": "S3 Issues",
+  "advice": "Enable versioning on this bucket to protect against accidental deletions.",
+  "color": "CYAN",
+  "severity": "LOW"
+}

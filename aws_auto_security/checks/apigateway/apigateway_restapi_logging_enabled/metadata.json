@@ -1,0 +1,8 @@
+{
+  "id": "apigateway_restapi_logging_enabled",
+  "name": "Check if API Gateway Stage has logging enabled",
+  "category": "apigateway",
+  "advice": "Enable access logging on API Gateway stages to capture request details.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

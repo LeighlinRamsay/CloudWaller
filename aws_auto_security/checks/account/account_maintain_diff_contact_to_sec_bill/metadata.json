@@ -1,0 +1,8 @@
+{
+  "id": "account_maintain_different_contact_details_to_security_billing_and_operations",
+  "name": "Maintain different contact details to security, billing and operations",
+  "category": "account",
+  "advice": "Use separate contact channels for security, billing, and operations.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

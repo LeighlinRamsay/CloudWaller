@@ -1,0 +1,8 @@
+{
+  "id": "ec2_role_permissive",
+  "name": "EC2-Attached IAM Roles Over-Permissive",
+  "category": "IAM",
+  "advice": "Restrict IAM role policies attached to EC2 to least privilege; remove wildcard permissions.",
+  "color": "YELLOW",
+  "severity": "HIGH"
+}

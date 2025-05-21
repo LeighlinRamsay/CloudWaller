@@ -1,0 +1,8 @@
+{
+  "id": "block_public_access_disabled",
+  "name": "Block Public Access Disabled",
+  "category": "S3 Issues",
+  "advice": "Configure Public Access Block settings to True for all block options.",
+  "color": "CYAN",
+  "severity": "LOW"
+}

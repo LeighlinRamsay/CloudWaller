@@ -1,0 +1,8 @@
+{
+  "id": "storage_public_code_assets",
+  "name": "Public Read Code Assets",
+  "category": "Storage",
+  "advice": "Restrict public read on buckets/repos serving code (.js, .py, .html); serve via signed URLs or CDN with auth.",
+  "color": "CYAN",
+  "severity": "HIGH"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "sns_topic_policy",
+  "name": "SNS Topic Policy Too Permissive",
+  "category": "Messaging",
+  "advice": "Restrict SNS topic policy Principals and actions; avoid \"*\" principal and broad Publish/Subscribe.",
+  "color": "BLUE",
+  "severity": "LOW"
+}

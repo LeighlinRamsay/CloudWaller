@@ -1,0 +1,7 @@
+{
+  "id": "iam_permissions_boundary_enforced",
+  "name": "IAM Permissions Boundary Enforced",
+  "category": "IAM",
+  "severity": "HIGH",
+  "advice": "Attach a permissions boundary to any principal with admin-level permissions to limit privilege escalation."
+}

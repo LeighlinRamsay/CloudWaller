@@ -1,0 +1,8 @@
+{
+  "id": "alb_metadata_service_access",
+  "name": "ALB Metadata Service Exposure",
+  "category": "Networking",
+  "advice": "Block 169.254.169.254 in ALB listener SG or target group.",
+  "color": "BLUE",
+  "severity": "LOW"
+}

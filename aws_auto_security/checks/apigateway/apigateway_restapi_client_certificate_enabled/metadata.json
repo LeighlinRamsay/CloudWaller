@@ -1,0 +1,8 @@
+{
+  "id": "apigateway_restapi_client_certificate_enabled",
+  "name": "Check if API Gateway Stage has client certificate enabled",
+  "category": "apigateway",
+  "advice": "Associate a client certificate with your stage for backend auth.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

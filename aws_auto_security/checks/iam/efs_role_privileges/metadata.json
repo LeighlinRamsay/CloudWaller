@@ -1,0 +1,8 @@
+{
+  "id": "efs_role_privileges",
+  "name": "EFS IAM Role Over-Privileges",
+  "category": "IAM",
+  "advice": "Restrict roles to only grant elasticfilesystem:ClientMount and ec2:CreateTags on specific EFS ARNs.",
+  "color": "YELLOW",
+  "severity": "MEDIUM"
+}

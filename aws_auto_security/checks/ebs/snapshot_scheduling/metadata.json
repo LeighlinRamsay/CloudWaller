@@ -1,0 +1,8 @@
+{
+  "id": "snapshot_scheduling",
+  "name": "Automated Snapshot Scheduling",
+  "category": "EBS",
+  "advice": "Create an AWS Config rule or Lambda function to automate regular snapshots of critical volumes.",
+  "color": "MAGENTA",
+  "severity": "LOW"
+}

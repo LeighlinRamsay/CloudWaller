@@ -1,0 +1,8 @@
+{
+  "id": "iam_policy_version_mgmt",
+  "name": "Policy Version Management on High-Privilege",
+  "category": "IAM",
+  "advice": "Separate permissions for ListPolicyVersions and SetDefaultPolicyVersion or restrict them on high-privilege policies.",
+  "color": "YELLOW",
+  "severity": "MEDIUM"
+}

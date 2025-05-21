@@ -1,0 +1,8 @@
+{
+  "id": "cognito_identity_pool_unauth",
+  "name": "Cognito Identity Pools Unauthenticated Role",
+  "category": "Authentication",
+  "advice": "Restrict or remove IAM roles assigned to the unauthenticated identity; enforce least privilege.",
+  "color": "BLUE",
+  "severity": "LOW"
+}

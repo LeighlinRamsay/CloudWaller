@@ -1,0 +1,8 @@
+{
+  "id": "http_public_exposed",
+  "name": "HTTP/S Public Exposure",
+  "category": "Networking",
+  "advice": "Restrict HTTP(S) SG to private subnets or remove public internet access.",
+  "color": "BLUE",
+  "severity": "LOW"
+}

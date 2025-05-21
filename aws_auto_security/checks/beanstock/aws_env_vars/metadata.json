@@ -1,0 +1,8 @@
+{
+  "id": "beanstalk_aws_env_vars",
+  "name": "Elastic Beanstalk AWS_* Env Vars",
+  "category": "Compute",
+  "advice": "Remove AWS_* credentials from Beanstalk environment variables; use IAM roles or Secrets Manager instead.",
+  "color": "MAGENTA",
+  "severity": "HIGH"
+}

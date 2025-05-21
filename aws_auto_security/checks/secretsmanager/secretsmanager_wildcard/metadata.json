@@ -1,0 +1,8 @@
+{
+  "id": "secretsmanager_wildcard",
+  "name": "SecretsManager Wildcard SecretValue",
+  "category": "IAM",
+  "advice": "Restrict GetSecretValue permissions to specific secret ARNs, not wildcard.",
+  "color": "RED",
+  "severity": "HIGH"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "apigateway_restapi_public_with_authorizer",
+  "name": "Check if public API Gateway endpoint has an authorizer",
+  "category": "apigateway",
+  "advice": "Configure an authorizer for PUBLIC REST APIs to enforce access control.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

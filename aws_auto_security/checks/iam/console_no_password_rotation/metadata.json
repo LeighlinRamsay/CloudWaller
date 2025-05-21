@@ -1,0 +1,8 @@
+{
+  "id": "console_no_password_rotation",
+  "name": "IAM Users without Password Rotation",
+  "category": "IAM",
+  "advice": "Enable a password expiration policy and enforce regular password rotation for console users.",
+  "color": "YELLOW",
+  "severity": "MEDIUM"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "ec2_mgmt_open_sgs",
+  "name": "EC2 SGs with 0.0.0.0/0 on SSH/Management Ports",
+  "category": "Networking",
+  "advice": "Restrict SSH/RDP and management ports to known IPs or VPN SGs.",
+  "color": "RED",
+  "severity": "CRITICAL"
+}

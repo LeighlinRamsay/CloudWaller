@@ -1,0 +1,8 @@
+{
+  "id": "tag_compliance",
+  "name": "EBS Tag Compliance",
+  "category": "EBS",
+  "advice": "Ensure Environment tag values are one of {prod, staging, dev}.",
+  "color": "MAGENTA",
+  "severity": "LOW"
+}

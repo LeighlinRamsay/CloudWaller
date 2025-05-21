@@ -1,0 +1,8 @@
+{
+  "id": "public_s3",
+  "name": "Bucket ACL Public Access",
+  "category": "S3 Issues",
+  "advice": "Enable Block Public Access on the bucket and review ACL policies to remove public grants.",
+  "color": "CYAN",
+  "severity": "LOW"
+}

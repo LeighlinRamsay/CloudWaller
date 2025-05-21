@@ -1,0 +1,8 @@
+{
+  "id": "unused_access_keys",
+  "name": "IAM Access Keys Unused > 90 Days",
+  "category": "IAM",
+  "advice": "Rotate or deactivate IAM access keys that have not been used in over 90 days.",
+  "color": "YELLOW",
+  "severity": "LOW"
+}

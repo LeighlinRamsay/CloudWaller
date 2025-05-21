@@ -1,0 +1,8 @@
+{
+  "id": "glue_job_privileges",
+  "name": "Glue Job Role Over-Privileged",
+  "category": "ETL",
+  "advice": "Restrict Glue job IAM roles to only the needed actions and resources.",
+  "color": "YELLOW",
+  "severity": "MEDIUM"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "s3_encryption_at_rest",
+  "name": "S3 Encryption at Rest",
+  "category": "S3 Issues",
+  "advice": "Enable SSE-S3 or SSE-KMS encryption on this bucket.",
+  "color": "CYAN",
+  "severity": "LOW"
+}

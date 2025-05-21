@@ -1,0 +1,8 @@
+{
+  "id": "apigatewayv2_api_authorizers_enabled",
+  "name": "Checks if API Gateway V2 has configured authorizers",
+  "category": "apigateway",
+  "advice": "Define authorizers for HTTP/WebSocket APIs to secure endpoints.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

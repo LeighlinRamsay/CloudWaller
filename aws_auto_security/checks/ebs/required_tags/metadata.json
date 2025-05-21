@@ -1,0 +1,8 @@
+{
+  "id": "required_tags",
+  "name": "EBS Required Tags Missing",
+  "category": "EBS",
+  "advice": "Apply required tags (Owner, Environment, Project) to all EBS volumes.",
+  "color": "MAGENTA",
+  "severity": "LOW"
+}

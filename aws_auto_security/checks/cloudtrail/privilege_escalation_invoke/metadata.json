@@ -1,0 +1,8 @@
+{
+  "id": "privilege_escalation_invoke",
+  "name": "Privilege-Escalation API Invocations",
+  "category": "Audit",
+  "advice": "Review function code to remove calls to iam:AttachRolePolicy, CreatePolicy, etc.",
+  "color": "RED",
+  "severity": "HIGH"
+}

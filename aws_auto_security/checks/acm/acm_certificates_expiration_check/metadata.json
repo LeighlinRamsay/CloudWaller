@@ -1,0 +1,8 @@
+{
+  "id": "acm_certificates_expiration_check",
+  "name": "Check if ACM Certificates are about to expire",
+  "category": "acm",
+  "advice": "Renew ACM certificates before expiry.",
+  "color": "HIGH",
+  "severity": "HIGH"
+}

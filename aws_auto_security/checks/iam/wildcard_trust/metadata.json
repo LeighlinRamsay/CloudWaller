@@ -1,0 +1,8 @@
+{
+  "id": "wildcard_trust",
+  "name": "IAM Roles with Wildcard Trust",
+  "category": "IAM",
+  "advice": "Restrict IAM role trust policies: avoid Principal \"*\" and specify only necessary principals.",
+  "color": "YELLOW",
+  "severity": "HIGH"
+}

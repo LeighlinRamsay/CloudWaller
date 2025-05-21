@@ -1,0 +1,8 @@
+{
+  "id": "apigateway_restapi_authorizers_enabled",
+  "name": "Check if API Gateway has configured authorizers",
+  "category": "apigateway",
+  "advice": "Add authorizers to secure your API Gateway methods.",
+  "color": "MEDIUM",
+  "severity": "MEDIUM"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "unused_iam_roles",
+  "name": "IAM Roles Unused in Last 90 Days",
+  "category": "IAM",
+  "severity": "LOW",
+  "advice": "Delete or rotate any IAM roles that have not been used in the past 90 days to reduce your attack surface."
+}

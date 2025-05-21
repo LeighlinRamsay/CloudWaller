@@ -1,0 +1,8 @@
+{
+  "id": "lambda_no_timeout",
+  "name": "Lambda Functions with No Timeout",
+  "category": "Compute",
+  "advice": "Set a reasonable Timeout value on your Lambda functions to prevent runaway executions (e.g., 30s).",
+  "color": "MAGENTA",
+  "severity": "MEDIUM"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "cognito_user_pool_client_mfa",
+  "name": "User Pool Client Admin Auth Without MFA",
+  "category": "Authentication",
+  "advice": "Disable ALLOW_ADMIN_USER_PASSWORD_AUTH or enforce MFA on user pool clients.",
+  "color": "BLUE",
+  "severity": "LOW"
+}
