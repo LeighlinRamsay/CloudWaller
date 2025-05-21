@@ -1,4 +1,4 @@
-# AWS Auto Security
+# AWS Cloud Waller
 
 **Plugin-based AWS security scanner and advice tool**
 
