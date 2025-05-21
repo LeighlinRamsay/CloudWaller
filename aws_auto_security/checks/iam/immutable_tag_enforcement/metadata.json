@@ -4,5 +4,6 @@
   "category": "IAM",
   "advice": "Add IAM conditions on ec2:DeleteTags to prevent removal of critical tags.",
   "color": "YELLOW",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "iam"
 }

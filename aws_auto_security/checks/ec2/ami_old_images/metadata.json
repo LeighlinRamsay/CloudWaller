@@ -4,5 +4,6 @@
   "category": "Compute",
   "advice": "Decommission AMIs older than your supported OS lifecycle.",
   "color": "YELLOW",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "ec2"
 }

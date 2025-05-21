@@ -4,5 +4,6 @@
   "category": "S3 Issues",
   "advice": "Configure S3 server access logging to an appropriate log bucket.",
   "color": "CYAN",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "s3"
 }

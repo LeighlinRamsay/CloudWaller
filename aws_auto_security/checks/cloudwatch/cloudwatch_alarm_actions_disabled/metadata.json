@@ -4,5 +4,6 @@
   "category": "Monitoring",
   "advice": "Enable actions on your CloudWatch Alarms to ensure notifications or automated responses fire.",
   "color": "YELLOW",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "cloudwatch"
 }

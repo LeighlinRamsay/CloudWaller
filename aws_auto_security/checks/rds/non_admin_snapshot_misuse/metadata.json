@@ -4,5 +4,6 @@
   "category": "Database",
   "advice": "Restrict CreateDBSnapshot/RestoreDBInstanceFromDBSnapshot to DBAdmins group only.",
   "color": "RED",
-  "severity": "HIGH"
+  "severity": "HIGH",
+  "service": "rds"
 }

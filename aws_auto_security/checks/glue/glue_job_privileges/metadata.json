@@ -4,5 +4,6 @@
   "category": "ETL",
   "advice": "Restrict Glue job IAM roles to only the needed actions and resources.",
   "color": "YELLOW",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "glue"
 }

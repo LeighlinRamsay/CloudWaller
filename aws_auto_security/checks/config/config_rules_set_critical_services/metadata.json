@@ -3,5 +3,6 @@
   "name": "Config Rule Compliance",
   "category": "Cloud Audit",
   "severity": "CRITICAL",
-  "advice": "Ensure you create AWS Config rules to cover high-risk resources: S3 buckets, IAM users, and VPCs."
+  "advice": "Ensure you create AWS Config rules to cover high-risk resources: S3 buckets, IAM users, and VPCs.",
+  "service": "config"
 }

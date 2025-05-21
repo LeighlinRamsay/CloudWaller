@@ -4,5 +4,6 @@
   "category": "apigateway",
   "advice": "Associate a client certificate with your stage for backend auth.",
   "color": "MEDIUM",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "apigateway"
 }

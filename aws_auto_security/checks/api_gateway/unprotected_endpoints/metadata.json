@@ -4,5 +4,6 @@
   "category": "API Gateway",
   "advice": "Require authorization (IAM, Cognito, API key, or Lambda authorizer) on all methods to prevent anonymous access.",
   "color": "BLUE",
-  "severity": "HIGH"
+  "severity": "HIGH",
+  "service": "apigateway"
 }

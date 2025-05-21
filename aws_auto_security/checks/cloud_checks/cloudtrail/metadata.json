@@ -4,5 +4,6 @@
   "category": "Cloud Audit",
   "advice": "Enable CloudTrail in all regions and verify IsMultiRegionTrail=True for at least one trail.",
   "color": "RED",
-  "severity": "CRITICAL"
+  "severity": "CRITICAL",
+  "service": "cloudtrail"
 }

@@ -4,5 +4,6 @@
   "category": "S3 Issues",
   "advice": "Enable SSE-S3 or SSE-KMS encryption on this bucket.",
   "color": "CYAN",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "s3"
 }

@@ -4,5 +4,6 @@
   "category": "acm",
   "advice": "Renew ACM certificates before expiry.",
   "color": "HIGH",
-  "severity": "HIGH"
+  "severity": "HIGH",
+  "service": "acm"
 }

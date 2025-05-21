@@ -4,5 +4,6 @@
   "category": "EBS",
   "advice": "Remove cross-account permissions or ensure only trusted AWS account IDs are permitted.",
   "color": "MAGENTA",
-  "severity": "HIGH"
+  "severity": "HIGH",
+  "service": "ebs"
 }

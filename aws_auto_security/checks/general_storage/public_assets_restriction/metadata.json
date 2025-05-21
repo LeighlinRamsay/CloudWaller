@@ -4,5 +4,6 @@
   "category": "Storage",
   "advice": "Add origin or referer restrictions to public-facing buckets or endpoints serving web assets.",
   "color": "CYAN",
-  "severity": "HIGH"
+  "severity": "HIGH",
+  "service": "cloudfront"
 }

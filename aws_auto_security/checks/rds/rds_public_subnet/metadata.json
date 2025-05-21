@@ -4,5 +4,6 @@
   "category": "Database",
   "advice": "Ensure RDS subnet groups only include private subnets.",
   "color": "RED",
-  "severity": "HIGH"
+  "severity": "HIGH",
+  "service": "rds"
 }

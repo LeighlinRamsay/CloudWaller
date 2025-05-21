@@ -4,5 +4,6 @@
   "category": "CI/CD",
   "advice": "Use Secrets Manager or encrypted SSM parameters for secrets, not plaintext vars.",
   "color": "RED",
-  "severity": "CRITICAL"
+  "severity": "CRITICAL",
+  "service": "codebuild"
 }

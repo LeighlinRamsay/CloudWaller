@@ -4,5 +4,6 @@
   "category": "apigateway",
   "advice": "Enable access logging on HTTP/WebSocket API Gateway V2 stages.",
   "color": "MEDIUM",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "apigatewayv2"
 }

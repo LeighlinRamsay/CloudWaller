@@ -63,6 +63,15 @@ def main():
         action="store_true",
         help="Suppress all console output (still writes to files)"
     )
+    scan_p.add_argument(
+        "--list-services",
+        action="store_true",
+        help="List all AWS services that have at least one security check"
+    )
+    scan_p.add_argument(
+        "--service",
+        help="Only run checks for the specified AWS service"
+    )
 
     # ADVISE command (unchanged)
     adv_p = sub.add_parser("advise", help="Generate remediation advice")
@@ -82,6 +91,28 @@ def main():
     args = parser.parse_args()
 
     if args.command == "scan":
+        # Discover all plugins & their metadata without making AWS calls
+        discover_runner = Runner(None, None)
+        all_plugins    = discover_runner.plugins
+        all_ids        = [m["id"] for m in all_plugins]
+
+        # If user just wants to know which services have checks, list & exit
+        if args.list_services:
+            # load first Runner to discover all plugins/metadata
+            runner = Runner(None, None)
+            services = sorted({meta.get("service", "<unknown>") for meta in runner.plugins})
+            print("Available services with checks:")
+            for svc in services:
+                print(f"  - {svc}")
+            return
+
+        # Build the final list of check IDs to run
+        only_ids = all_ids
+        # filter by service if requested
+        """if args.service:
+            only_ids = [m["id"] for m in all_plugins if m["service"] == args.service]"""
+
+
         # Parse multiple profiles and regions
         profiles = [
             p.strip()
@@ -101,8 +132,15 @@ def main():
 
         # Instantiate one Runner to grab the plugin list and metadata
         first_runner = Runner(profiles[0], regions[0])
-        plugins = first_runner.plugins    # list of all available check metas
+        plugins = first_runner.plugins    # full list of check metas
         metadata = first_runner.metadata
+
+        if args.service:
+            plugins = [m for m in plugins if m.get("service") == args.service]
+            metadata = {m["id"]: m for m in plugins}
+
+        
+
         all_findings = []
 
         # Create a single progress bar for the 90 checks
@@ -135,10 +173,13 @@ def main():
                             all_findings.append((pid, resource_id, desc))
 
         except KeyboardInterrupt:
-            print("\n🛑 Scan aborted; compiling partial results...", file=sys.stderr)
+            print("\n🛑 Scan aborted; Exiting Tool...", file=sys.stderr)
+            exit()
         finally:
             elapsed = round(time.time() - start, 2)
             bar.close()
+            
+
 
         if not args.no_output:
 

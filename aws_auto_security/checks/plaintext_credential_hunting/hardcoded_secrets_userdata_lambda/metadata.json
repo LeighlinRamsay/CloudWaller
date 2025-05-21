@@ -4,5 +4,6 @@
   "category": "Secret Management",
   "advice": "Remove secrets from user data and environment variables; use AWS Secrets Manager or Parameter Store with proper IAM permissions and encryption.",
   "color": "RED",
-  "severity": "CRITICAL"
+  "severity": "CRITICAL",
+  "service": "lambda"
 }

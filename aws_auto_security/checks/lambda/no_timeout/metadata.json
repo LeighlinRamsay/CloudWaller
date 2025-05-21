@@ -4,5 +4,6 @@
   "category": "Compute",
   "advice": "Set a reasonable Timeout value on your Lambda functions to prevent runaway executions (e.g., 30s).",
   "color": "MAGENTA",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "lambda"
 }

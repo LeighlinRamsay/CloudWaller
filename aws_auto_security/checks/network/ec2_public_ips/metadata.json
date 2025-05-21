@@ -4,5 +4,6 @@
   "category": "Networking",
   "advice": "Remove public IPs or move instances into private subnets where possible.",
   "color": "BLUE",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "ec2"
 }

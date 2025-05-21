@@ -4,5 +4,6 @@
   "category": "Messaging",
   "advice": "Restrict SNS topic policy Principals and actions; avoid \"*\" principal and broad Publish/Subscribe.",
   "color": "BLUE",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "sns"
 }

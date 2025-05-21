@@ -1,8 +1,9 @@
 {
   "id": "appstream_fleet_session_disconnect_timeout",
-  "name": "Ensure AppStream fleet disconnect timeout ≤ 5 minutes",
+  "name": "Ensure AppStream fleet disconnect timeout \u2264 5 minutes",
   "category": "appstream",
-  "advice": "Set DisconnectTimeoutInSeconds ≤ 300 to limit forced disconnect delay.",
+  "advice": "Set DisconnectTimeoutInSeconds \u2264 300 to limit forced disconnect delay.",
   "color": "MEDIUM",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "appstream"
 }

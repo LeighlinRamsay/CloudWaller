@@ -4,5 +4,6 @@
   "category": "Authentication",
   "advice": "Restrict or remove IAM roles assigned to the unauthenticated identity; enforce least privilege.",
   "color": "BLUE",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "cognito"
 }

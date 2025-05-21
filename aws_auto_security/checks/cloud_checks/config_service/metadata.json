@@ -4,5 +4,6 @@
   "category": "Cloud Audit",
   "advice": "Enable AWS Config recording for all resource types in all regions.",
   "color": "RED",
-  "severity": "CRITICAL"
+  "severity": "CRITICAL",
+  "service": "config"
 }

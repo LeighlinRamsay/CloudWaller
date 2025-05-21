@@ -4,5 +4,6 @@
   "category": "EBS",
   "advice": "Encrypt or delete and re-create the snapshot using encrypted volumes.",
   "color": "MAGENTA",
-  "severity": "HIGH"
+  "severity": "HIGH",
+  "service": "ebs"
 }

@@ -4,5 +4,6 @@
   "category": "Networking",
   "advice": "Restrict SSH/RDP and management ports to known IPs or VPN SGs.",
   "color": "RED",
-  "severity": "CRITICAL"
+  "severity": "CRITICAL",
+  "service": "ec2"
 }

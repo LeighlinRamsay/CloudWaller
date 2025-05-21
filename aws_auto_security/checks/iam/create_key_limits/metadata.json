@@ -4,5 +4,6 @@
   "category": "IAM",
   "advice": "Scope iam:CreateAccessKey and iam:RotateAccessKey by resource or add conditions limiting key creation/deletion.",
   "color": "YELLOW",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "iam"
 }

@@ -4,5 +4,6 @@
   "category": "IAM",
   "advice": "Limit SSM GetParameter permissions to scoped parameter paths, not the root (/).",
   "color": "RED",
-  "severity": "CRITICAL"
+  "severity": "CRITICAL",
+  "service": "iam"
 }

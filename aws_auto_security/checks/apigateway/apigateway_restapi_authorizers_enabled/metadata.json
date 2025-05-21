@@ -4,5 +4,6 @@
   "category": "apigateway",
   "advice": "Add authorizers to secure your API Gateway methods.",
   "color": "MEDIUM",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "apigateway"
 }

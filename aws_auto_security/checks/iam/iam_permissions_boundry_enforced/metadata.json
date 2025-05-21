@@ -3,5 +3,6 @@
   "name": "IAM Permissions Boundary Enforced",
   "category": "IAM",
   "severity": "HIGH",
-  "advice": "Attach a permissions boundary to any principal with admin-level permissions to limit privilege escalation."
+  "advice": "Attach a permissions boundary to any principal with admin-level permissions to limit privilege escalation.",
+  "service": "iam"
 }

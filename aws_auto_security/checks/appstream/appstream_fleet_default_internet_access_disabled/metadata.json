@@ -4,5 +4,6 @@
   "category": "appstream",
   "advice": "Disable EnableDefaultInternetAccess on fleets to prevent unrestricted Internet access.",
   "color": "MEDIUM",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "appstream"
 }

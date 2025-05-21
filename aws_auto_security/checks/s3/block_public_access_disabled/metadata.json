@@ -4,5 +4,6 @@
   "category": "S3 Issues",
   "advice": "Configure Public Access Block settings to True for all block options.",
   "color": "CYAN",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "s3"
 }

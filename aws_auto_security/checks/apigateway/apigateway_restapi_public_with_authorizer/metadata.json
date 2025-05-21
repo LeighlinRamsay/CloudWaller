@@ -4,5 +4,6 @@
   "category": "apigateway",
   "advice": "Configure an authorizer for PUBLIC REST APIs to enforce access control.",
   "color": "MEDIUM",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "apigateway"
 }

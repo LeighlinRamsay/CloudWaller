@@ -4,5 +4,6 @@
   "category": "IAM",
   "advice": "Restrict roles to only grant elasticfilesystem:ClientMount and ec2:CreateTags on specific EFS ARNs.",
   "color": "YELLOW",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "iam"
 }

@@ -4,5 +4,6 @@
   "category": "account",
   "advice": "Register a security contact in your AWS account settings.",
   "color": "MEDIUM",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "account"
 }

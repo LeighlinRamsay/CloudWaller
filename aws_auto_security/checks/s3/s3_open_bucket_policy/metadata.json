@@ -4,5 +4,6 @@
   "category": "S3 Issues",
   "advice": "Restrict bucket policy principals and resources; remove \"*\" entries.",
   "color": "CYAN",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "s3"
 }

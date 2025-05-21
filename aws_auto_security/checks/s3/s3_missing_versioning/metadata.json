@@ -4,5 +4,6 @@
   "category": "S3 Issues",
   "advice": "Enable versioning on this bucket to protect against accidental deletions.",
   "color": "CYAN",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "s3"
 }

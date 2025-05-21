@@ -4,5 +4,6 @@
   "category": "EBS",
   "advice": "Delete old snapshots or apply a DeleteOn tag to manage retention.",
   "color": "MAGENTA",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "ec2"
 }

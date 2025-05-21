@@ -2,7 +2,8 @@
   "id": "situation_sg",
   "name": "Situational SG Awareness",
   "category": "Networking",
-  "advice": "Ensure SG rules reference other SGs according to role policies (e.g., ALB→Web, RDS→App SG).",
+  "advice": "Ensure SG rules reference other SGs according to role policies (e.g., ALB\u2192Web, RDS\u2192App SG).",
   "color": "BLUE",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "ec2"
 }

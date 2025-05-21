@@ -4,5 +4,6 @@
   "category": "IAM",
   "advice": "Audit IAM role policies: remove wildcard permissions on actions.",
   "color": "YELLOW",
-  "severity": "HIGH"
+  "severity": "HIGH",
+  "service": "iam"
 }

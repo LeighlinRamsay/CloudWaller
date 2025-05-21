@@ -4,5 +4,6 @@
   "category": "account",
   "advice": "Use separate contact channels for security, billing, and operations.",
   "color": "MEDIUM",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "account"
 }

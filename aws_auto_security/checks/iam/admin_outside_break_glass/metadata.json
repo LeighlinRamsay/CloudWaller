@@ -4,5 +4,6 @@
   "category": "IAM",
   "advice": "Ensure only break-glass accounts have AdministratorAccess; remove admin privileges from others.",
   "color": "YELLOW",
-  "severity": "HIGH"
+  "severity": "HIGH",
+  "service": "iam"
 }

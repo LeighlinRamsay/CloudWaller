@@ -4,5 +4,6 @@
   "category": "IAM",
   "advice": "Do not combine ec2:AssociateIamInstanceProfile and iam:PassRole broadly.",
   "color": "YELLOW",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "iam"
 }

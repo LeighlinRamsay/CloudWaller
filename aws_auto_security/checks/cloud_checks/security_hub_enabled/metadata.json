@@ -3,5 +3,6 @@
   "name": "Security Hub Enabled",
   "category": "Cloud Audit",
   "severity": "CRITICAL",
-  "advice": "Enable AWS Security Hub in every region by running `aws securityhub enable-security-hub` or via the AWS Console."
+  "advice": "Enable AWS Security Hub in every region by running `aws securityhub enable-security-hub` or via the AWS Console.",
+  "service": "securityhub"
 }

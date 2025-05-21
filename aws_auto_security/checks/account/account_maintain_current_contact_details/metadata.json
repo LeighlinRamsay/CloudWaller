@@ -4,5 +4,6 @@
   "category": "account",
   "advice": "Use the AWS Account API to keep your contact information up to date.",
   "color": "MEDIUM",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "account"
 }

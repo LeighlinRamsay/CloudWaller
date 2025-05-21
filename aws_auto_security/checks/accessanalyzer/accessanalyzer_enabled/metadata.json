@@ -4,5 +4,6 @@
   "category": "accessanalyzer",
   "advice": "Enable IAM Access Analyzer to start detecting unintended resource access.",
   "color": "LOW",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "accessanalyzer"
 }

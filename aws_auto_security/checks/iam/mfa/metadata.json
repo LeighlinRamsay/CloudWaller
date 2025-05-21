@@ -4,5 +4,6 @@
   "category": "IAM",
   "advice": "Enable MFA for the root account and all IAM users.",
   "color": "YELLOW",
-  "severity": "HIGH"
+  "severity": "HIGH",
+  "service": "iam"
 }

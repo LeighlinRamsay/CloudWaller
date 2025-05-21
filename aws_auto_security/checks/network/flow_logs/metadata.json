@@ -4,5 +4,6 @@
   "category": "Networking",
   "advice": "Enable VPC Flow Logs for the resource to capture network traffic.",
   "color": "BLUE",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "ec2"
 }

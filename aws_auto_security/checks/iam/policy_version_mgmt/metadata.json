@@ -4,5 +4,6 @@
   "category": "IAM",
   "advice": "Separate permissions for ListPolicyVersions and SetDefaultPolicyVersion or restrict them on high-privilege policies.",
   "color": "YELLOW",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "iam"
 }

@@ -4,5 +4,6 @@
   "category": "Compute",
   "advice": "Remove AWS_* credentials from Beanstalk environment variables; use IAM roles or Secrets Manager instead.",
   "color": "MAGENTA",
-  "severity": "HIGH"
+  "severity": "HIGH",
+  "service": "Beanstock"
 }

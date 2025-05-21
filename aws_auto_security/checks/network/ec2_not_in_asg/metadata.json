@@ -4,5 +4,6 @@
   "category": "Networking",
   "advice": "Add instances to an Auto Scaling Group to ensure availability and replace failures.",
   "color": "BLUE",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "ec2"
 }

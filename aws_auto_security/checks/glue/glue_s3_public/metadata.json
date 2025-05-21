@@ -4,5 +4,6 @@
   "category": "ETL",
   "advice": "Lock down bucket ACLs/policies for Glue script artifact buckets.",
   "color": "RED",
-  "severity": "HIGH"
+  "severity": "HIGH",
+  "service": "glue"
 }

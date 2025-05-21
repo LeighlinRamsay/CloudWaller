@@ -4,5 +4,6 @@
   "category": "Authentication",
   "advice": "Disable ALLOW_ADMIN_USER_PASSWORD_AUTH or enforce MFA on user pool clients.",
   "color": "BLUE",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "cognito"
 }

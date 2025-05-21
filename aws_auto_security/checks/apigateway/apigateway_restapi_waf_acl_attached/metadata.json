@@ -4,5 +4,6 @@
   "category": "apigateway",
   "advice": "Associate a WAFv2 Web ACL with each API Gateway stage to protect against threats.",
   "color": "MEDIUM",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "apigateway"
 }

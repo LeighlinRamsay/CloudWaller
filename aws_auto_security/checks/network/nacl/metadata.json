@@ -4,5 +4,6 @@
   "category": "Networking",
   "advice": "Ensure each subnet has an associated NACL and restrict NACL entries to avoid open all-traffic rules.",
   "color": "BLUE",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "ec2"
 }

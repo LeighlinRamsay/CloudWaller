@@ -4,5 +4,6 @@
   "category": "IAM",
   "advice": "Add IAM users to appropriate groups for centralized permission management.",
   "color": "YELLOW",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "iam"
 }

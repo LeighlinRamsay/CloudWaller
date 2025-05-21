@@ -3,5 +3,6 @@
   "name": "ECS Tasks Privileged Containers",
   "category": "ECS",
   "severity": "HIGH",
-  "advice": "Avoid running containers in privileged mode; remove privileged settings from task definitions."
+  "advice": "Avoid running containers in privileged mode; remove privileged settings from task definitions.",
+  "service": "ecs"
 }

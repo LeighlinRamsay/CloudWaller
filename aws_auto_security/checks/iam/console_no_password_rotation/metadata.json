@@ -4,5 +4,6 @@
   "category": "IAM",
   "advice": "Enable a password expiration policy and enforce regular password rotation for console users.",
   "color": "YELLOW",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "iam"
 }

@@ -4,5 +4,6 @@
   "category": "Cloud Audit",
   "advice": "Avoid using the root account; ensure no recent root activity by enforcing MFA and access controls.",
   "color": "RED",
-  "severity": "CRITICAL"
+  "severity": "CRITICAL",
+  "service": "cloudtrail"
 }

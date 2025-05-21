@@ -4,5 +4,6 @@
   "category": "Compute",
   "advice": "Remove iam:PassRole or sts:AssumeRole on roles outside the lambda's trust boundary.",
   "color": "MAGENTA",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "lambda"
 }

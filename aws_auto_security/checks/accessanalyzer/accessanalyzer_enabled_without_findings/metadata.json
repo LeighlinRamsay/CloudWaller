@@ -4,5 +4,6 @@
   "category": "accessanalyzer",
   "advice": "Review or archive analyzers that never generate any findings.",
   "color": "LOW",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "accessanalyzer"
 }

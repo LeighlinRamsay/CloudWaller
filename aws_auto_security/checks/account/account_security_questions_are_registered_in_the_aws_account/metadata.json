@@ -4,5 +4,6 @@
   "category": "account",
   "advice": "Complete your AWS root account security questions in the console.",
   "color": "MEDIUM",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "account"
 }

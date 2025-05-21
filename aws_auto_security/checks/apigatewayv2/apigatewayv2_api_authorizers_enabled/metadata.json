@@ -4,5 +4,6 @@
   "category": "apigateway",
   "advice": "Define authorizers for HTTP/WebSocket APIs to secure endpoints.",
   "color": "MEDIUM",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "apigatewayv2"
 }

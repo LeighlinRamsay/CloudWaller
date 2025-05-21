@@ -4,5 +4,6 @@
   "category": "Database",
   "advice": "Encrypt snapshots with a CMK and remove any wildcard account‐ID share; restrict sharing to specific accounts.",
   "color": "RED",
-  "severity": "HIGH"
+  "severity": "HIGH",
+  "service": "rds"
 }

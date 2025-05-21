@@ -4,5 +4,6 @@
   "category": "apigateway",
   "advice": "Enable access logging on API Gateway stages to capture request details.",
   "color": "MEDIUM",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "apigateway"
 }

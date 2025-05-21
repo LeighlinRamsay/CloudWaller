@@ -4,5 +4,6 @@
   "category": "acm",
   "advice": "Enable CT logs for your ACM certificates.",
   "color": "MEDIUM",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "acm"
 }

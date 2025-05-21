@@ -4,5 +4,6 @@
   "category": "Threat Detection",
   "advice": "Enable GuardDuty and configure publishing to CloudWatch Events or SNS.",
   "color": "BLUE",
-  "severity": "LOW"
+  "severity": "LOW",
+  "service": "guardduty"
 }

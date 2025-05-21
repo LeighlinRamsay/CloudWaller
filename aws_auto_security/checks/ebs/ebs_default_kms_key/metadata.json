@@ -4,5 +4,6 @@
   "category": "EBS",
   "advice": "Re-encrypt the volume with a customer-managed KMS key to enforce key rotation and access control.",
   "color": "MAGENTA",
-  "severity": "MEDIUM"
+  "severity": "MEDIUM",
+  "service": "ebs"
 }
