@@ -15,6 +15,8 @@ from aws_auto_security.config import DEFAULT_PROFILE, DEFAULT_REGION
 from aws_auto_security.utils import init_colors
 from aws_auto_security.core.runner import Runner
 from aws_auto_security.reporter import report_grouped, dump_json, dump_asff, SEVERITY_MAP
+from aws_auto_security.reporter_html import generate_html_report
+import datetime
 
 # make colorama auto-reset
 _colorama_init(autoreset=True)
@@ -58,7 +60,7 @@ def main():
         help="Run only these check IDs"
     )
     scan.add_argument("-f","--output-format",
-        choices=["text","json","asff"], default="text",
+        choices=["text","json","asff", "html"], default="text",
         help="Output format: text, json, or asff"
     )
     scan.add_argument("-O","--output-file",
@@ -203,6 +205,24 @@ def main():
                 ",".join(profiles), ",".join(regions), elapsed,
                 Runner(profiles[0],regions[0]).session
             )
+        # Handle HTML report export
+        elif args.output_format == "html" and all_findings:
+            # Build the same scan metadata we pass to dump_json
+            scan_meta = {
+            # use timezone‐aware UTC now, drop microseconds, ISO format
+            "timestamp":       datetime.datetime
+                                  .now(datetime.timezone.utc)
+                                  .replace(microsecond=0)
+                                  .isoformat() + "Z",
+                "aws_profiles": ','.join(profiles),
+                "aws_regions":  ','.join(regions),
+            }
+            html_path = generate_html_report(scan_meta, all_findings, metadata)
+            print(f"HTML report saved to {html_path}", file=sys.stderr)
+
+        # Or write the same grouped text into a file if the user requested it
+
+
         elif args.output_file and all_findings:
             with open(args.output_file, "w") as f:
                 print(legend, file=f)

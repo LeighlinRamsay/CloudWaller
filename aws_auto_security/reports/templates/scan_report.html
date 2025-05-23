@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Scan Report — {{ scan_id }}</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+    .btn-toggle {
+      display: block;
+      width: 100%;
+      padding: .75rem 1rem;
+      text-align: left;
+      background: #8B0000;
+      color: #fff;
+      border: none;
+      border-radius: .25rem;
+      margin-bottom: .5rem;
+    }
+    .card {
+      background: #111;
+      border: none;
+    }
+    .list-group-item {
+      background: #111;
+      color: #fff;
+      border: none;
+    }
+
+    /* the new glowing pills */
+    .severity-box {
+      display: inline-block;
+      padding: .25em .6em;
+      border-radius: .25rem;
+      font-size: .75rem;
+      font-weight: 600;
+      text-align: center;
+      min-width: 3.5em;
+      margin-right: .5em;
+      margin-bottom: .25em;
+    }
+    .severity-low {
+      background: #007bff;
+      color: #fff;
+      box-shadow: 0 0 8px #007bff;
+    }
+    .severity-medium {
+      background: #ffc107;
+      color: #000;
+      box-shadow: 0 0 8px #ffc107;
+    }
+    .severity-high {
+      background: #fd7e14;
+      color: #fff;
+      box-shadow: 0 0 8px #fd7e14;
+    }
+    .severity-critical {
+      background: #dc3545;
+      color: #fff;
+      box-shadow: 0 0 8px #dc3545;
+    }
+  </style>
+</head>
+<body class="p-4">
+  <div class="container">
+    <h1 class="mb-4">AWS Security Scan Report</h1>
+    <p><strong>Scan ID:</strong> {{ scan_id }}</p>
+    <p><strong>Date:</strong>    {{ timestamp }}</p>
+    <p><strong>Profiles:</strong> {{ profiles }}</p>
+    <p><strong>Regions:</strong>  {{ regions }}</p>
+    <hr/>
+
+    <h2 class="mt-4">Detailed Findings</h2>
+    {% for service, items in grouped_findings.items() %}
+      <button
+        class="btn-toggle"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#svc-{{ loop.index }}"
+        aria-expanded="false"
+        aria-controls="svc-{{ loop.index }}"
+      >
+        {{ service }} ({{ items|length }})
+      </button>
+      <div class="collapse mb-3" id="svc-{{ loop.index }}">
+        <div class="card">
+          <ul class="list-group list-group-flush">
+            {% for it in items %}
+              <li class="list-group-item">
+                <!-- glowing box -->
+                <span class="severity-box severity-{{ it.severity|lower }}">{{ it.severity }}</span>
+                <strong>{{ it.resource }}</strong>: {{ it.desc }}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
